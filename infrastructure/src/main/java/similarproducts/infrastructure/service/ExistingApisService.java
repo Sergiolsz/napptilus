@@ -16,7 +16,6 @@ public class ExistingApisService implements ExistingApisMethods {
 		this.existingApiClient = existingApiClient;
 	}
 
-
 	@Override
 	public ProductDetail getExistingProductDetail(String productId) {
 

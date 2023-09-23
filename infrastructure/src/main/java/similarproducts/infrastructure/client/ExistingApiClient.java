@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import similarproducts.entity.model.ProductDetail;
 
-
 @FeignClient(name = "${existing-apis.name}", url = "${existing-apis.url.base}")
 public interface ExistingApiClient {
 
